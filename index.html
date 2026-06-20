@@ -1,17 +1,53 @@
-<div class="test-clinical-card">
-  <div class="card-tag">Herramienta Etológica</div>
-  <h2 class="card-test-title">Test de Respuesta ante <span class="text-brand">Alteraciones Emocionales en Perros</span></h2>
-  <p class="card-test-subtitle">Evaluación psicométrica para la clasificación de pacientes caninos.</p>
-  
-  <div class="card-divider"></div>
-  
-  <div class="card-actions-container">
-    <a href="https://comunidad.maestrianimal.com/test-arquetipos-perros" target="_blank" class="card-btn btn-direct-access">
-      Ver / Abrir Test
-    </a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Arquetipos Emocionales | maestríanimal</title>
     
-    <button id="shareWhatsAppBtn" class="card-btn btn-share-whatsapp">
-      <span class="whatsapp-icon"></span> Compartir por WhatsApp
-    </button>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            DEFAULT: '#00505b',
+                            hover: '#003d46',
+                            50: '#e0ecee',
+                            100: '#b3d3d7'
+                        },
+                        accent: {
+                            DEFAULT: '#ca6700',
+                            hover: '#a85500',
+                            50: '#fcf0e5',
+                            100: '#f7d8b8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen text-zinc-800 relative z-0">
+  <div class="test-clinical-card">
+    <div class="card-tag">Herramienta Etológica</div>
+    <h2 class="card-test-title">Test de Respuesta ante <span class="text-brand">Alteraciones Emocionales en Perros</span></h2>
+    <p class="card-test-subtitle">Evaluación psicométrica para la clasificación de pacientes caninos.</p>
+    
+    <div class="card-divider"></div>
+    <div class="card-actions-container">
+      <a href="https://comunidad.maestrianimal.com/test-arquetipos-perros" target="_blank" class="card-btn btn-direct-access">
+      Ver / Abrir Test
+      </a>
+      
+      <button id="shareWhatsAppBtn" class="card-btn btn-share-whatsapp">
+        <span class="whatsapp-icon"></span> Compartir por WhatsApp
+      </button>
+    </div>
   </div>
-</div>
+</body>
+</html>
